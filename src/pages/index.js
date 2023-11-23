@@ -1,10 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+// Filename - pages/index.js
 
-ReactDOM.render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>,
-	document.getElementById('root')
-);
+import React from "react";
+
+const Index = () => {
+	return (
+		<div>
+			<h1>Welcome to my super ugly website which will later be somewhat pretty</h1>
+		</div>
+	);
+};
+
+export default Index;
